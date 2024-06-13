@@ -33,4 +33,5 @@ To run this application locally or deploy it to a server, follow these steps:
    streamlit run app.py
    
 **Model Details**
+
 The sentiment classification is powered by the DistilBERT model, a smaller and faster version of BERT, fine-tuned for sequence classification tasks like sentiment analysis.
