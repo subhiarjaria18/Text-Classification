@@ -1,15 +1,26 @@
-# Text-Classification
-Use of HuggingFace and Streamlit
+# Sentiment Analysis with DistilBERT Transformer 🤖📝
 
-# Text Sentiment Classifier with Hugging Face and Streamlit
+Welcome to the sentiment analysis project powered by Hugging Face's DistilBERT model! This project demonstrates how to perform sentiment analysis on text using a pre-trained DistilBERT model for sequence classification.
 
-This project demonstrates a simple web application for text sentiment classification using Hugging Face's DistilBERT model and Streamlit. The application allows users to input text, which is then classified into either positive or negative sentiment.
+## 🌟 Key Features
 
-## Features
+- **DistilBERT Transformer Model:** Utilizes the DistilBERT model from Hugging Face's Transformers library for efficient text classification.
+- **DistilBERTTokenizer:** Tokenizes text input to prepare it for model inference.
+- **DistilBertForSequenceClassification:** Fine-tuned model for sentiment analysis, predicting sentiment labels for input text.
+- **Streamlit Web App:** Integrates the sentiment analysis model into a user-friendly web interface using Streamlit.
+-  **Binary Classification:** Predicts sentiment as either positive (1) or negative (0) based on input text.
 
-- **Text Sentiment Classification:** Uses the pre-trained DistilBERT model from Hugging Face for sentiment analysis.
-- **Web Application:** Built with Streamlit for a user-friendly web interface.
-- **Binary Classification:** Predicts sentiment as either positive (1) or negative (0) based on input text.
+This tool provides users with a quick and accurate way to analyze the sentiment of text inputs, making it suitable for various applications, including customer feedback analysis and social media sentiment monitoring.
+
+## 🔗 Check Out the App
+
+Explore the sentiment analysis app here: [Sentiment Analysis with DistilBERT Web App](https://stock-forecast-app-twu5hak22gtlievyyoypof.streamlit.app/)
+
+## 🛠️ Technologies Used
+
+1. **Hugging Face Transformers:** For accessing the DistilBERT model and tokenizer.
+2. **Streamlit:** To create an interactive web interface for the sentiment analysis.
+3. **Python Libraries:** Transformers, Streamlit, Pandas, NumPy (used for data manipulation and application development).
 
 ## Getting Started
 
