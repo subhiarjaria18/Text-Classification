@@ -20,7 +20,7 @@ Explore the sentiment analysis app here: [Sentiment Analysis with DistilBERT Web
 
 1. **Hugging Face Transformers:** For accessing the DistilBERT model and tokenizer.
 2. **Streamlit:** To create an interactive web interface for the sentiment analysis.
-3. **Python Libraries:** Transformers, Streamlit, Pandas, NumPy (used for data manipulation and application development).
+3. **Python Libraries:** Transformers, Streamlit
 
 ## Getting Started
 
